@@ -1,3 +1,3 @@
 # jackmahoney362.github.io
-jacks first page
-<a href="index.html">HTML Test</a>
+Jack's first page
+
