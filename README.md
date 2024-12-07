@@ -1,3 +1,3 @@
 # jackmahoney362.github.io
-Jack's first page
+Using Data Visualization to Analyze Stock Option Contracts
 
