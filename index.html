@@ -24,26 +24,26 @@
                     expensive options which generally means options with a high annual return relative to the probability that the contract will expire worthless.
                     For example, if a put option is offering 30% annualized returns with 75% chance the contract expires worthless.
                 </p>
-                <p>
-                    After spending hours looking at countless daily CSV files from Barchart.com visualized on this plot, I realized there is no such thing as an 
-                    incorrectly priced option contract.  Any outliers on the plot can be explained by either high IV or low Moneyness (terms explained in Jupyter Notebook).
-                </p>
             </ul>
         <h3>Takeaway</h3>
             <ul>
+                After spending hours looking at countless daily CSV files from Barchart visualized with this plot, I realized there is no such thing as an 
+                incorrectly priced option contract.  Any outliers on the plot can be explained by either high IV or low Moneyness (terms explained in Jupyter Notebook), and the remaining few are dying companies like intel ;).
+            </ul>
+            <ul>
                 Although I didn't find a free money cheat code ;), This project taught me a lot of things about options trading that I should've learned a long time ago.
                 This is the first time I have ever created something with code that has become integral to my daily life and it feels great.  At market open each day
-                I sit down at my desk with a coffee and pull up my scatter plot for the days csv file.  Now that I have this project on a github page, I am tempted to share
+                I sit down at my desk with a coffee and pull up my scatter plot to view the daily csv file.  Now that I have this project on a github page, I am tempted to share
                 it with r/thetagang (subreddit for options sellers) and see what some more experienced traders think of my chosen axes.
             </ul>
         <h3>CSV file source</h3>
             <ul>
                 It's getting close to midnight now and this html is really slowing me down so I'll keep this brief.  The CSV files I used for this project are from <b>barchart.com</b>.
-                I use their Naked Put screener to find expensive option contracts on companies that I wouldn't mind holding long term.  However, I kept the filtering to a minimum for 
+                I use their Naked Put Screener to find option contracts to sell on companies that I wouldn't mind holding long term.  However, I kept the filtering to a minimum for 
                 this project in order to get the whole picture from the data.
             </ul>
             <ul>
-                I've added five example CSV files from a week in October that was 
+                I've added five CSV files from a week in October if you want to run the raw code.  Unforutnately the scatter plot won't appear on the jupyter notebook in my repository.
             </ul>
             <ul>
                 I'll link a photo below of the option screener.
@@ -51,13 +51,16 @@
         
         <br>
         <h4>
-            <li>Filters I applied to the datasets used for this project</li>
+            <li>Filters I applied prior to downloading the CSV files</li>
         </h4>
         <img src="screener.png"/>
         
         <h4>
             <li>excerpt from the 2,528 results found by the screener today</li>
         </h4>
+            <ul>
+                I used to scroll through pages of this screener before I wrote my scatter plot program.
+            </ul>
         <img src="screener_results.png"/>
     </body>
 </html>
